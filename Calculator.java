@@ -5,6 +5,7 @@ public class Calculator {
         while(true) {
             System.out.println("Enter First number");
             float num1 = scan.nextFloat();
+            System.out.println("Enter Second number");
             float num2 = scan.nextFloat();
             System.out.println("Click 1 for Addition, 2 for subtraction, 3 for division, 4 for multiplication");
             int choice = scan.nextInt();
